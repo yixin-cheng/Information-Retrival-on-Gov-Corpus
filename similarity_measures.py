@@ -45,8 +45,6 @@ class TF_Similarity(CosineSimilarity):
 
 
 class TFIDF_Similarity(CosineSimilarity):
-    # TODO implement the set_document_norms and get_scores methods.
-    # Get rid of the NotImplementedErrors when you are done.
     def set_document_norms(self):
         N = len(self.postings.doc_to_token_counts)
         df = defaultdict(lambda: 0)
@@ -74,8 +72,6 @@ class TFIDF_Similarity(CosineSimilarity):
 
 
 class BM25_Similarity(CosineSimilarity):
-    # TODO implement the set_document_norms and get_scores methods.
-    # Get rid of the NotImplementedErrors when you are done.
     def set_document_norms(self):
         pass
 
