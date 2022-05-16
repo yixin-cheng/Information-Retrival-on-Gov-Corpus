@@ -1,3 +1,1 @@
-# NLP-IR
-TOPIC:
 
